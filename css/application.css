@@ -1,0 +1,34 @@
+html, div, nav, h1,h2,h3,h4, a{
+	font-family: 'Open Sans', sans-serif !important;
+}
+body{
+	margin-top: 65px;
+	list-style:none;
+}
+footer{
+	padding: 15px;
+	background: #272822;
+	color: #fff; 
+  	z-index: 99999;
+}
+
+header{
+	border-bottom: solid 3px #D91E18;
+	padding: 10px 0 10px 15px;
+	box-shadow: 0 -24px 8px 27px rgba(0,0,0,0.3);
+	background: #333333 !important;
+}
+ul{
+	list-style:none;
+}
+.copyright{
+	text-align: center;
+	padding: 2%;
+}
+
+.home_carousel, .home_who{
+	width: 100%;
+	height: 300px;
+	padding: 2%;
+	text-align: center;
+}
