@@ -1,6 +1,12 @@
 html, div, nav, h1,h2,h3,h4, a{
 	font-family: 'Open Sans', sans-serif !important;
 }
+a{
+	color: #96281B ;
+}
+a:hover{
+	color: #CF000F;
+}
 body{
 	margin-top: 65px;
 	list-style:none;
@@ -31,4 +37,11 @@ ul{
 	height: 300px;
 	padding: 2%;
 	text-align: center;
+}
+.headline{
+
+}
+.headline h2{
+	text-align: center;
+	color: #CF000F;
 }
