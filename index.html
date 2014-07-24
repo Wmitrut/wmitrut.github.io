@@ -4,15 +4,17 @@ layout: default
 
 <div class="home">
 
-  <h1>Posts</h1>
+  <h3>Posts</h3>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-    
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
+<ul class="posts">
+    {% for post in site.posts limit 4 %}
+
+    <li><span class="post-date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ _posts}}{{ post.url }}">{{ post.title }}</a></li>
+        {{ post.content | strip_html | truncatewords:75}}<br>
+            <a href="{{ post.url }}">Leia Mais...</a><br><br>
     {% endfor %}
-  </ul>
+</ul>
+
+
+
 </div>
