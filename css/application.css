@@ -47,16 +47,15 @@ ul{
 	text-align: center;
 	padding: 2%;
 }
-
-
-
-
 .headline{
 
 }
-.headline h2{
+.headline h2, .post_title{
 	text-align: center;
-	color: #CF000F;
+	color: #1E8BC3;
+	font-weight: bold;
+	max-width: 600px;
+	margin: 0 auto;
 }
 
 .logo_position:hover{
@@ -70,3 +69,12 @@ ul{
 	font-size: 20px;
 	padding: 2%;
 }
+.posts h3{
+	text-align: center;
+}
+.posts a{
+	color: #1E8BC3;
+}
+.posts a:hover{
+	color: #22313F;
+};
