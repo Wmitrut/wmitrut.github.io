@@ -5,7 +5,12 @@ layout: default
 
   <div class="headline">
     <h2>{{ page.title }}</h2>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+
+
+		    <div>
+		    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p></div>
+
+
   </div>
 
   <article class="post-content">
