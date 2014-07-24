@@ -65,7 +65,7 @@ ul{
 .posts{
 	margin: 0 auto;
 	text-align: justify;
-	max-width: 850px;
+	max-width: 1000px;
 	font-size: 20px;
 	padding: 2%;
 }
@@ -78,3 +78,6 @@ ul{
 .posts a:hover{
 	color: #22313F;
 };
+hr{
+	width: 80%;
+}

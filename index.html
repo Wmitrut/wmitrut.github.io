@@ -9,7 +9,9 @@ layout: default
     <li> <h3><a href="{{ _posts}}{{ post.url }}" class="post_title">{{ post.title }}</a></h3></li>
         {{ post.content | strip_html | truncatewords:75}}<br>
             <a href="{{ post.url }}">Leia Mais...</a><br><br>
+              <hr>
     {% endfor %}
+
 </ul>
 
 
