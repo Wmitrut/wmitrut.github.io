@@ -38,6 +38,9 @@ header{
 	color: #3498DB;
 	transition: background-color 0.5s ease;
 }
+.top-bar.expanded .title-area {
+	background: #ffffff;
+}
 
 ul{
 	list-style:none;
@@ -85,4 +88,7 @@ hr{
 }
 .orbit-bullets, .orbit-slide-number{
 	display: none;
+}
+.toggle-topbar{
+	  transition: all 0.5s ease;
 }
