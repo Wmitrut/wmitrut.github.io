@@ -9,17 +9,19 @@
 
     <div class="page-content">
       <div class="wrap">
-      {{ content | limit: 5 }}
+      {{ content }}
       </div>
     </div>
 
     {% include footer.html %}
 
+      <script src="/js/vendor/jquery.js"></script> 
+      <script src="/js/vendor/modernizr.js"></script>        
+      <script src="/js/foundation/foundation.js"></script>
+      <script src="/js/foundation/foundation.orbit.js"></script>         
+      <script src="/js/foundation.min.js"></script>
+      <script src="/js/stellar.js-master/src/jquery.stellar.js"></script>  
+      <script>$(document).foundation();</script>
 
     </body>
-     <script src="/js/vendor/jquery.js"></script> 
-     <script src="/js/vendor/modernizr.js"></script>        
-     <script src="/js/foundation/foundation.js"></script>
-     <script src="/js/foundation/foundation.orbit.js"></script>         
-     <script src="/js/foundation.min.js"></script>
 </html>

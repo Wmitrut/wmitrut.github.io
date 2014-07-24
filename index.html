@@ -1,8 +1,33 @@
 ---
 layout: default
 ---
+ <div class="slider">
+        <ul data-orbit data-options="animation_speed:500;">
+            <li data-orbit-slide="headline-2" class="slide-1">
+              <div>
+                <div class="slide-content">
+                 <img src="/img/slide1.jpg" alt="slide 2" /> 
 
+              </div>
+            </li>
+              <li data-orbit-slide="headline-2" class="slide-1">
+              <div>
+                 <div class="slide-content">
+                 </div>  
+                 <img src="/img/slide2.jpg" alt="slide 2" />             
+              </div>
+            </li>
+              <li data-orbit-slide="headline-2" class="slide-1">
+              <div>
+                 <div class="slide-content">
+                 </div>  
+                 <img src="/img/slide3.jpg" alt="slide 2" />             
+              </div>
+            </li>
+         </ul>
+  </div>
 <div class="home">
+
 <ul class="posts">
     {% for post in site.posts limit 4 %}
 

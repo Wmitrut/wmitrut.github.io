@@ -8,7 +8,6 @@ a:hover{
 	color: #3A539B;
 }
 body{
-	margin-top: 65px;
 	list-style:none;
 }
 footer{
@@ -80,4 +79,10 @@ ul{
 };
 hr{
 	width: 80%;
+}
+.slider{
+	width: 100%;
+}
+.orbit-bullets, .orbit-slide-number{
+	display: none;
 }
