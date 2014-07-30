@@ -14,9 +14,6 @@ comments: true
 		    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
 		</div>
   {{ content }}
-  </article>
-
-
 
 {{% if page.comments %}}
       <div id="disqus_thread"></div>
@@ -35,6 +32,12 @@ comments: true
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     
    {{% endif %}}
+
+  
+  </article>
+
+
+
 
 
 </div>
