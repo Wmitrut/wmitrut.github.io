@@ -121,18 +121,3 @@ hr{
 	margin-top: 5%;
 	font-weight: bold;
 }
-.center{
-	text-align: center;
-}
-.embed-container {
-	position: relative; 
-	padding-bottom: 120%; 
-	height: 0; 
-	overflow: hidden;} 
-.embed-container iframe, .embed-container object, .embed-container embed { 
-	position: absolute; 
-	top: 0; 
-	left: 0; 
-	width: 100%; 
-	height: 100%;
-}
