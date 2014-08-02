@@ -6,4 +6,4 @@ comments: true
 categories: cat
 ---
 
-<iframe src="//instagram.com/p/lAcPM8FfHv/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+<iframe class="center" src="//instagram.com/p/lAcPM8FfHv/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
