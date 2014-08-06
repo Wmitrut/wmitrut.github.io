@@ -130,3 +130,23 @@ hr{
 	margin-top: 5%;
 	font-weight: bold;
 }
+pre{
+	border-radius: 5px;
+	background: #EEEEEE;
+	margin-left: 2%;
+ 	white-space: pre-wrap;       /* css-3 */
+ 	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ 	white-space: -pre-wrap;      /* Opera 4-6 */
+ 	white-space: -o-pre-wrap;    /* Opera 7 */
+ 	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+pre > code{
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace !important;
+	color: #333!important;
+	font-weight: normal !important;
+	font-size: 15px;
+
+}
+p{
+	font-size: 20px !important;
+}
