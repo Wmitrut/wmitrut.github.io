@@ -94,10 +94,7 @@ hr{
 .orbit-container ul li img{
 	width: 100vw !important;
 }
-.orbit-prev, .orbit-next{
-	display: block !important;
-	background: #333 !important;
- }
+
 .toggle-topbar{
 	  transition: all 0.5s ease;
 }  
