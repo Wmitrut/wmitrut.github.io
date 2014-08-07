@@ -147,3 +147,8 @@ pre > code{
 p{
 	font-size: 20px !important;
 }
+.social  li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
