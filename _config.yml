@@ -1,7 +1,7 @@
 # Site settings
 title: Wmitrut's Blog
 email: your-email@domain.com
-description: "Blog and site about Wmitrut, discovering Ruby on Rails, several off-topic subjects, software development, project management, Agile techniques, and technology in general"
+description: "Blog and site about Wmitrut, discovering Ruby on Rails, software development, project management, technology in general and lifestyle"
 baseurl: ""
 url: "http://wmitrut.github.io"
 
