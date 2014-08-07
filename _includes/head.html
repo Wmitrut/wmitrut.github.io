@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/css/application.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 
-     <!-- meta tags para compartilhamento-->
+     <!-- meta tags para compartilhamento no facebook opengraph-->
 
      <!--Título-->
     <meta content="{{ site.title }}" property="og:site_name">
@@ -44,6 +44,29 @@
   <meta content="{{ site.url }}/assets/img/logo.png" property="og:image">
     {% endif %}
 
+   <!-- meta tags para compartilhamento no twitter-->
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@site_username">
+    <meta name="twitter:creator" content="@creator_username">
+    {% if page.title %}
+        <meta name="twitter:title" content="{{ page.title }}">
+    {% else %}
+         <meta name="twitter:title" content="{{ site.title }}">
+    {% endif %}
+    {% if page.url %}
+         <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    {% endif %}
+    {% if page.description %}
+         <meta name="twitter:description" content="{{ page.description }}">
+    {% else %}
+          <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+    {% if page.image %}
+         <meta name="twitter:image:src" content="{{ site.url }}/assets/img/posts/{{ page.image }}">
+    {% else %}
+         <meta name="twitter:image:src" content="{{ site.url }}/assets/img/logo.png">
+{% endif %}
   
 
 </head>
