@@ -13,7 +13,7 @@ body{
 footer{
 	padding: 15px;
 	background: #ABB7B7;
-	color: #fff; 
+	color: #fff;
   	z-index: 99999;
   	border-top: solid 3px #3498DB;
 }
@@ -25,7 +25,7 @@ header{
 	background: #fff !important;
 }
 .top-bar{
-	background: #fff;	
+	background: #fff;
 }
 .top-bar-section li:not(.has-form) a:not(.button){
 	color: #333;
@@ -97,7 +97,7 @@ hr{
 
 .toggle-topbar{
 	  transition: all 0.5s ease;
-}  
+}
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -152,13 +152,19 @@ p{
 	margin:0px;
 	list-style:none;
 }
-.social ul li { 
-	display: inline; 
+.social ul li {
+	display: inline;
 }
 .social ul li span {
 	padding: 2%;
 	display: inline-block;
- 
+
 	/* visual do link */
 	text-decoration: none;
+}
+.galeria{
+	padding:2%;
+}
+.galeria img{
+	border-radius:5%;
 }
