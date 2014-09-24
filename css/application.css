@@ -168,3 +168,31 @@ p{
 .galeria img{
 	border-radius:5%;
 }
+.bluediv{
+	width:100%;
+	background:#3498DB;
+	padding:2%;
+	margin:0;
+	text-align:center;
+	left:0;
+	color:#fff !important;
+}
+.whitediv, .whitediv h4, .whitediv a{
+	width:100%;
+	background:#fff;
+	padding:2%;
+	text-align:center;
+	margin:0;
+	left:0;
+	color:#333!important;
+}
+.bluediv h1{
+	color:#fff;
+	font-weight:bold;
+}
+.bluediv h3, a, h4{
+	color:#fff;
+}
+.whitediv h1{
+	font-weight:bold;
+}
