@@ -40,3 +40,27 @@
 
 .second__paragraph
   padding-top: 50px
+
+.clients ul
+  margin-left: 0px
+
+.clients ul li
+  display: inline-block
+
+
+.clients ul li a img
+  @extend .pv-, .ph-
+  display: block
+  min-width: 50px
+  height: 90px
+  margin: 15px
+  opacity: 0.5
+  filter: gray
+  filter: grayscale(1)
+  -webkit-filter: grayscale(1)
+  @include transition( all 0.5s )
+
+  +attention
+    opacity: 1
+    filter: none
+    -webkit-filter: grayscale(0)

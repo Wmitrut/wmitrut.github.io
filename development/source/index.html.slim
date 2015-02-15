@@ -25,34 +25,17 @@
 .row.second.second--home
     .container
       .second__header
-        h1.second__title  Alguns clientes
-        h2.second__subtitle  Sua idéia pode se tornar real, entre em contato e solicite apresentação.
+        h1.second__title  Clientes
+        h2.second__subtitle  Empreendedores que trabalhamos em conjunto para criar serviços de impacto direto vida das pessoas.
 
         nav.clients
-          ul#client.list.list--nav
-            li.list__item = link_to 'Invent.to','http://invent.to', class:'list__link'
-            li.list__item = link_to 'Tambo','http://emporiotambo.com.br', class:'list__link'
-            li.list__item = link_to 'OldCase','#', class:'list__link'
-            li.list__item = link_to 'Academi.as','http://academi.as', class:'list__link'
-            li.list__item = link_to 'Lab85','http://lab85.com.br', class:'list__link'
-
-
-
-
-
-/ Testimonial
-.row.testimonial.testimonial--home
-    .container
-      .testimonial__header
-        h1.testimonial__title  Talks & Workshops
-        h2.testimonial__subtitle  Odd Future tousled Kickstarter whatever High Life wayfarers.
-        .browser-mockup.with-url
-          =image_tag 'dash.png'
-
-    #owl-slides.owl-carousel
-
-
-
+          ul#client.list.client--nav
+            li.list__item = link_to image_tag('clients/inventto.png'),'http://invent.to',:target => '_blank', class:'list__client'
+            li.list__item = link_to image_tag('clients/tambo.png'),'http://emporiotambo.com.br', :target => '_blank', class:'list__client'
+            li.list__item = link_to image_tag('clients/oldcase.png'),'#',:target => '_blank', class:'list__link'
+            li.list__item = link_to image_tag('clients/lab85.svg'),'http://lab85.com.br',:target => '_blank', class:'list__link'
+            li.list__item = link_to image_tag('clients/academias.png'),'http://academi.as',:target => '_blank', class:'list__link'
+            li.list__item = link_to image_tag('clients/appipoka.png'),'http://appipoka.com.br',:target => '_blank', class:'list__link'
 
 
 /Contact
