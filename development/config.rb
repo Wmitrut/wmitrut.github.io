@@ -5,8 +5,8 @@
 # Site Settings
 # ----------------------------------------------
 @google_analytics = ''
-set :site_name, 'Wmitrut middleman boilerplate'
-set :site_description, 'A Static Site Generator'
+set :site_name, 'Wmitrut - Designer Front-End'
+set :site_description, 'Serviços de design, branding, front-end e desenvolvimento.'
 set :site_url, 'http://wmitrut.github.io'
 set :site_twitter, '@wmitrut'
 
