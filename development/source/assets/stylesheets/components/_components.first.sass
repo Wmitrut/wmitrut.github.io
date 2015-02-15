@@ -1,0 +1,84 @@
+
+.first--home
+  background: #fff
+  text-align: center
+  text-shadow: 0 1px 0 rgba(#000, .15)
+  min-height: 400px
+  padding-top: 50px
+  padding-bottom: 50px
+
+  .first__title,
+  .first__subtitle
+    color: #303030
+    margin: 0
+    padding: 0
+
+  .first__title
+    +inuit-font-size(28px, 1)
+    text-transform: uppercase
+    padding-bottom: 28px
+    letter-spacing: 5px
+    +font-weight("bold")
+
+  .first__subtitle
+    +inuit-font-size(24px, 1)
+    +font-weight(light)
+    padding-bottom: 52px
+    letter-spacing: 2px
+
+  .first__paragraph
+    margin-top: -45px
+    text-align: center
+
+    p
+      width: 35%
+      padding: 2%
+      text-align: justify
+      margin: 5px auto
+      display: inline-flex
+      top: 0
+
+    @media screen and (max-width: 900px)
+      p
+        width: 90%
+        padding: 1%
+        text-align: justify
+
+
+  .happy img
+    width: 100%
+
+.browser-mockup
+  border-top: 2em solid rgba(230, 230, 230, 0.7)
+  box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.4)
+  position: relative
+  border-radius: 3px 3px 0 0
+
+.browser-mockup img
+  width: 100%
+
+.browser-mockup:before
+  display: block
+  position: absolute
+  content: ''
+  top: -1.25em
+  left: 1em
+  width: 0.5em
+  height: 0.5em
+  border-radius: 50%
+  background-color: #f44
+  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5
+
+.browser-mockup.with-url:after
+  display: block
+  position: absolute
+  content: ''
+  top: -1.6em
+  left: 5.5em
+  width: calc(100% - 6em)
+  height: 1.2em
+  border-radius: 2px
+  background-color: white
+
+.browser-mockup > *
+  display: block

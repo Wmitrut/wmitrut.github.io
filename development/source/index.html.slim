@@ -1,0 +1,89 @@
+/ Hero
+.row.hero.hero--home
+  .container
+    .hero__header
+      p.hero__call Nós sabemos que tempo é o bem mais precioso
+
+      =image_tag 'logo_hero.png'
+
+      h2.hero__title UX, UI designer
+
+    .hero__footer
+      =link_to 'Clique e conheça!', '/', class:'btn btn--get'
+
+/First
+
+.row.first.first--home
+  .first__header
+    h1.first__title  Gerencie com tranquilidade
+    h2.first__subtitle  Suspendisse faucibus nunc Sed magna purus fermentum Phasellus gravida semper
+  .first__body
+    .happy
+        =image_tag 'first-happy.png'
+
+    .first__paragraph
+      p. Ut non enim eleifend felis pretium feugiat. Phasellus dolor. Sed hendrerit. Donec posuere vulputate arcu. In hac habitasse platea dictumst. Ut non enim eleifend felis pretium feugiat. Phasellus dolor. Sed hendrerit. Donec posuere vulputate arcu. In hac habitasse platea dictumst.
+      p. Aliquam lobortis. Vivamus consectetuer hendrerit lacus. Maecenas vestibulum mollis diam. Curabitur suscipit suscipit tellus. Aliquam lobortis. Vivamus consectetuer hendrerit lacus. Maecenas vestibulum mollis diam. Curabitur suscipit suscipit tellus.
+
+/ Second
+.row.second.second--home
+    .container
+      .second__header
+        h1.second__title  Alguns clientes
+        h2.second__subtitle  Sua idéia pode se tornar real, entre em contato e solicite apresentação.
+
+/ Testimonial
+.row.testimonial.testimonial--home
+    .container
+      .testimonial__header
+        h1.testimonial__title  Dashboard
+        h2.testimonial__subtitle  Odd Future tousled Kickstarter whatever High Life wayfarers.
+        .browser-mockup.with-url
+          =image_tag 'dash.png'
+
+    #owl-slides.owl-carousel
+
+
+
+
+
+/Contact
+.row.contact.contact--home
+    .container
+      .contact__header
+        h1.contact__title  Entre em contato
+        h2.contact__subtitle  Odd Future tousled Kickstarter whatever High Life wayfarers.
+
+      .media__contact
+          .facebook__body
+            .fb-like-box data-colorscheme="light" data-header="true" data-href="https://www.facebook.com/lab85" data-show-border="true" data-show-faces="true" data-stream="false"
+
+          .contact__body
+            form.form accept-charset="UTF-8" action="https://api.sendgrid.com/api/mail.send.json" method="post" enctype="text/plain"
+              input name="redirect_to" type="hidden" value="http://lab85.com.br/"
+              fieldset.fieldset
+                .form__row
+                  .form__field
+                    input.form__input type='Name' placeholder='Nome'
+                .form__row
+                  .form__field
+                    input.form__input type='email' placeholder='Email'
+                .form__row
+                  .form__field
+                    textarea.form__input type='message' placeholder='Mensagem'
+                .form__row
+                  button.btn--send type='submit' Enviar
+
+
+
+
+
+    .list.list--contact
+      .list__item.list__item--address
+        address.address
+      .list__item.list__item--email
+
+        = link_to 'contato@van.com.br', 'mailto:mitrut@invent.to'
+
+      .list__item.list__item--phone
+        = link_to '+55 31 5515151 ', 'tel: +55 31 5515151'

@@ -1,0 +1,94 @@
+.contact
+  +clearfix
+
+.contact--home
+
+  background: #fff
+  text-align: center
+
+  padding-top: 30px
+  padding-bottom: 58px
+
+.list--contact
+  padding-top: 50px
+
+.contact__title
+  +inuit-font-size(42px, 1)
+  text-transform: uppercase
+  padding-bottom: 20px
+  +font-weight(bold)
+  color: #505C64
+.contact__subtitle
+  color: #505C64
+
+.contact__body
+  display: inline
+  text-align: center
+
+.form__input
+  border-radius: 5px
+  border: 2px solid #505C64
+  outline: none
+  padding: 1%
+  margin-top: 15px
+  width: 90%
+  color: #505C64
+
+.fieldset
+  border: none
+  text-align: left
+
+.facebook__body
+  width: 50%
+  float: right
+
+.list__item--email a, .list__item--phone a
+  color: #505C64
+  text-decoration: none
+
+.fb-like-box
+  background: #fff
+  width: 100%
+  float: right
+  border: none
+
+#fb-root
+  display: none
+
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style]
+  width: 100% !important
+
+
+
+.fieldset, .facebook__body
+  padding-top: 30px
+
+  .media__contact
+    width: 35%
+    padding: 2%
+    margin: 10px auto
+    display: inline-flex
+    top: 0
+
+  @media screen and (max-width: 900px)
+    .media__contact
+      width: 90%
+      padding: 1%
+      text-align: justify
+
+@media screen and (max-width: 860px)
+  .form__input
+    width: 100%
+
+  .facebook__body
+    width: 100%
+
+
+@media screen and (max-width: 650px)
+  .facebook__body
+    display: none
+
+@media screen and (max-width: 400px)
+  .fieldset
+    display: none
