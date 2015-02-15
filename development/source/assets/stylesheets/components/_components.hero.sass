@@ -5,7 +5,7 @@
   text-align: center
   text-shadow: 0 1px 0 rgba(#000, .15)
   background: linear-gradient(rgba(#333E44, .8),rgba(#333E44, .8)), image-url('hero.png')
-  background-position: 30% 40%
+  background-position: center
   background-repeat: no-repeat
   background-size: cover
   min-height: 600px
@@ -22,7 +22,8 @@
     margin: 0
     padding: 0
 
-  .hero__call,
+  .hero__call
+    padding-top: 90px
     font-size: 20px
     letter-spacing: 1px
 
@@ -30,8 +31,19 @@
     +inuit-font-size(32px, 1)
     text-transform: uppercase
     padding-bottom: 50px
+    padding-top: 30px
     letter-spacing: 4px
 
 
   .hero__header img
     margin-bottom: 2%
+
+  .hero__footer
+
+  .second_hero__subtitle
+    +inuit-font-size(20px, 1)
+    text-transform: uppercase
+    padding-bottom: 20px
+    +font-weight("bold")
+    letter-spacing: 6px
+    color: #efefef

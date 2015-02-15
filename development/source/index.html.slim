@@ -2,28 +2,24 @@
 .row.hero.hero--home
   .container
     .hero__header
-      p.hero__call Nós sabemos que tempo é o bem mais precioso
+      p.hero__call Não se trata apenas do software
 
-      =image_tag 'logo_hero.png'
-
-      h2.hero__title UX, UI designer
+      h2.hero__title Wmitrut: Front-end
 
     .hero__footer
-      =link_to 'Clique e conheça!', '/', class:'btn btn--get'
+      h2.second_hero__subtitle Aliando design e tecnologia para criar expeciências únicas
+
 
 /First
 
 .row.first.first--home
   .first__header
-    h1.first__title  Gerencie com tranquilidade
-    h2.first__subtitle  Suspendisse faucibus nunc Sed magna purus fermentum Phasellus gravida semper
-  .first__body
-    .happy
-        =image_tag 'first-happy.png'
+    h1.first__title  Do conceito ao código
+    h2.first__subtitle  Usamos tecnologias de ponta para construir produtos que tragam ótimas experiências.
 
-    .first__paragraph
-      p. Ut non enim eleifend felis pretium feugiat. Phasellus dolor. Sed hendrerit. Donec posuere vulputate arcu. In hac habitasse platea dictumst. Ut non enim eleifend felis pretium feugiat. Phasellus dolor. Sed hendrerit. Donec posuere vulputate arcu. In hac habitasse platea dictumst.
-      p. Aliquam lobortis. Vivamus consectetuer hendrerit lacus. Maecenas vestibulum mollis diam. Curabitur suscipit suscipit tellus. Aliquam lobortis. Vivamus consectetuer hendrerit lacus. Maecenas vestibulum mollis diam. Curabitur suscipit suscipit tellus.
+
+
+
 
 / Second
 .row.second.second--home
@@ -32,11 +28,23 @@
         h1.second__title  Alguns clientes
         h2.second__subtitle  Sua idéia pode se tornar real, entre em contato e solicite apresentação.
 
+        nav.clients
+          ul#client.list.list--nav
+            li.list__item = link_to 'Invent.to','http://invent.to', class:'list__link'
+            li.list__item = link_to 'Tambo','http://emporiotambo.com.br', class:'list__link'
+            li.list__item = link_to 'OldCase','#', class:'list__link'
+            li.list__item = link_to 'Academi.as','http://academi.as', class:'list__link'
+            li.list__item = link_to 'Lab85','http://lab85.com.br', class:'list__link'
+
+
+
+
+
 / Testimonial
 .row.testimonial.testimonial--home
     .container
       .testimonial__header
-        h1.testimonial__title  Dashboard
+        h1.testimonial__title  Talks & Workshops
         h2.testimonial__subtitle  Odd Future tousled Kickstarter whatever High Life wayfarers.
         .browser-mockup.with-url
           =image_tag 'dash.png'
@@ -83,7 +91,7 @@
         address.address
       .list__item.list__item--email
 
-        = link_to 'contato@van.com.br', 'mailto:mitrut@invent.to'
+        = link_to 'mitrut@invent.to', 'mailto:mitrut@invent.to'
 
       .list__item.list__item--phone
-        = link_to '+55 31 5515151 ', 'tel: +55 31 5515151'
+        = link_to '+55 46 3057-2020  ', 'tel: +55 46 3057-2020'
