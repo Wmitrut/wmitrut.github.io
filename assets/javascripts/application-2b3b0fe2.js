@@ -1,0 +1,1 @@
+(function(){$(function(){return FastClick.attach(document.body)})}).call(this),function(){$(function(){return"use strict"})}.call(this);
