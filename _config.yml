@@ -1,0 +1,17 @@
+# Site settings
+title: Wmitrut's Blog
+header-img: img/home-bg.jpg
+email: wellingtonmitrut@gmail.com
+description: "Write your site description here. It will be used as your sites meta description as well!"
+#baseurl: "/startbootstrap-clean-blog-jekyll"
+url: "http://wmitrut.github.io"
+twitter_username: Wmitrut
+github_username:  wmitrut
+facebook_username:  wmitrut
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
