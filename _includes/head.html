@@ -34,6 +34,25 @@
     <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+
+    {% for category in page.categories %}
+        <meta property="article:tag" content="{{ category }}" />
+    {% endfor %}
+
+    {% if page.description %}
+        <meta name="description" content="{{ page.description | truncatewords: 200 | strip_newlines | escape_once }}" />
+    {% else %}
+        <meta name="description" content="{{ content | strip_html | truncatewords: 200 | strip_newlines | escape_once }}" />
+    {% endif %}
+    {% if page.image %}
+        <meta property="og:image" content="{{ site.url }}/assets/{{ page.image }}" />
+    {% endif %}
+    {% if page.twitter_card_image %}
+        <meta name="twitter:image" content="{{ site.url }}/assets/{{ page.twitter_card_image }}" />
+    {% endif %}
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
