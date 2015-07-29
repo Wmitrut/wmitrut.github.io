@@ -5,6 +5,8 @@ subtitle:   "10 pequenas lições que me fizeram não enlouquecer neste mundo de
 date:       2015-07-28 12:00:00
 author:     "Wellington Mitrut"
 header-img: "img/post-bg-01.jpg"
+author:     "Wellington Mitrut"
+comments:   true
 ---
 
 <p>O mundo das startups é uma loucura atrás da outra. De pessoas com idéias maravilhosas à ideias que não sobrevivem a conversa com o amigo da mesa ao lado. De especialistas qualificados que sentam e conversam com você na mesa do bar depois das 23:00 e te dão conselhos para toda a vida à mentirosos que mentem pra deus e o mundo que trabalham na 'mega-empresa-bam-bam-bam-do-silicon-valley'.</p>
