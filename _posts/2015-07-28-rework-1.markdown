@@ -38,7 +38,7 @@ comments:   true
 
 <p>Planos são importantes, mas não são imaculáveis. Não planeje pensando no que já passou. Eles são um bom palpite, mas você tem que aprender a ir em novas direções, isso nunca foi tão adequado quanto hoje.</p>
 
-<p>Muitas vezes, são elaborados  longos planos baseados em coisas que já foram feitas há muito tempo, e isso pode não fazer mais sentido para o presente, quiçá para o futuro. Não chame-os de planos, chame de suposições estratégicas, e refaça-os semanalmente. Não planeje com muita antecedência, é desperdício e quase sempre impreciso. OUTRA COISA: Se você quebrar suas tarefas em tarefas menores, é muito mais provável que você chegue onde quer.</p>
+<p>Muitas vezes, são elaborados  longos planos baseados em coisas que já foram feitas há muito tempo, e isso pode não fazer emais sentido para o presente, quiçá para o futuro. Não chame-os de planos, chame de suposições estratégicas, e refaça-os semanalmente. Não planeje com muita antecedência, é desperdício e quase sempre impreciso. OUTRA COISA: Se você quebrar suas tarefas em tarefas menores, é muito mais provável que você chegue onde quer.</p>
 
 <h2 class="section-heading">03 - Foco! Foco! Foco!</h2>
 
