@@ -48,7 +48,7 @@ comments:   true
 <a href="#">
     <img src="{{ site.baseurl }}/img/posts/other/jamieoliver.jpg" alt="Jamie Oliver">
 </a>
-<span class="caption text-muted">Os chefs de cozinha estão bem presentes nos meus posts não é?</span>
+<span class="caption text-muted">Os chefs de cozinha estão bem presentes nos nossos posts não é?</span>
 
 <p>Sempre compartilhe conhecimento com a sua audiência, tweets, blog, faça o que for necessário para manter o compartilhamento de informações e ensinar-lhes algo. Lembre-se, as pessoas pensam que é um desperdício de tempo ensinar e ninguém mais faz isso. É, portanto, formar um vínculo e construir a confiança com seus consumidores.</p>
 
@@ -56,7 +56,7 @@ comments:   true
 
 <h2 class="section-heading">10 - Reuniões: como fazer?</h2>
 
-<p>Reuniões em geral são tão vagas que eles nunca têm um objetivo. Em geral servem para massagear o ego de alguém e para marcar uma próxima reunião pra definir uma subsequente reunião. Se você não puder evita-las, sua reunião deve ter um tempo bem definido e você deve fazê-la com um despertador, quando ele tocar, a reunião acabou.</p>
+<p>Reuniões em geral são tão vagas que elas nunca têm um objetivo. Em geral servem para massagear o ego de alguém e para marcar uma próxima reunião pra definir uma subsequente reunião. Se você não puder evita-las, sua reunião deve ter um tempo bem definido e você deve fazê-la com um despertador, quando ele tocar, a reunião acabou.</p>
 
 <p>Convide o mínimo de pessoas possível, e tenha uma agenda clara, um assunto bem definido. Seja específico. Foque em resolver o problema, não em definir quando seu clube do bolinha fará outra reunião para fazer as pessoas perderem mais tempo.</p>
 
