@@ -1,0 +1,24 @@
+---
+layout:     post
+title:      "O que a sua startup REALMENTE faz?"
+subtitle:   "De boas ideias o inferno está cheio. Mas quantas destas realmente resolvem problemas?"
+date:       2015-08-12 12:00:00
+author:     "Wellington Mitrut"
+tags:       HTML5, Javascript, front drops
+comments:   true
+header-img: "img/posts/other/working.jpg"
+---
+
+<p>Pra quem vive nesse meio de criação de empresas e validação de idéias, é inevitável ser bombardeado a todo momento por uma quantidade de informações hercúlea</p>
+
+<p>É no trabalho, na faculdade, na fila do pão. Em todo lugar em que possamos ter acesso a internet, nosso newsfeed é barulhento. E quanto mais informações se tem, mais perguntas aparecem. O maior problema é que, como previa Aldous Huxley, o que importa se perde em meio a tanto ruído. Porém estamos em uma época de ideias em abundância. Startups para todo lado, e nunca o "Faça o que você ama" foi tão gritado aos 4 léus. Infelizmente, são poucas as ideias que saem do papel com um propósito óbvio maior, propósito este que deveria ser o de toda startup — a solucionar problemas reais.</p>
+
+<p>Digo isto pois acho maravilhoso que se criem novos 'vales' e ecossistemas que dêem suporte para startups crescerem e aparecerem, é muito legal fazer networking. É incrível participar de workshops com pessoas que já foram lá e fizeram. Mas quantas destas startups estão lá para realmente aprender e aplicar e quantas desta estão apenas para aparecer na foto? Quantas desta estão apenas usando o jargão 'startup' por que está na moda e quantas destas realmente são startups?</p>
+
+<p>Quando questiono a solução de ‘problemas reais’, me refiro aos problemas de necessidade básica do ser humano, como a alimentação, saúde, educação. Um exêmplo de problema deste nivel que temos é a eclosão da população mundial, prestes a chegar em 9 bilhões. Como vamos alimentar tanta gente?</p>
+
+<p>Muitas ideias surgem para conquistar o mundo, não para mudá-lo ou melhorá-lo. Porém, de cada 10 pitchs, 11 falam sobre <i>'tornar o mundo um lugar melhor com < insira aqui o nome da startup >'</i>. Aí está, se analisarmos todo o sistema por trás da viabilidade e do sucesso de muitas startups entenderemos porquê as melhores e mais valiosas ideias são aquelas que foram feitas para conquistar o mundo.</p>
+
+<p>Isto está muito além da preocupação em melhorar as condições em que vivemos. A real preocupação está no 'quanto se ganha pela ideia', 'Faça uma startup para vender'. E aqui pontuo uma reflexão para todas as partes envolvidas e interessadas.</p>
+
+<p>Enquanto houver único interesse de ganho próprio, nunca teremos uma ideia inovadora, apenas cópias melhoradas (e com tempo de vida determinado) do que já existe. Portanto, para sair do óbvio é preciso procurar mais a fundo e encontrar os gaps existentes em todas essas novas ideias que surgem.</p>
