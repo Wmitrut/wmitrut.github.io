@@ -1,15 +1,16 @@
 # Site settings
 title: Wellington Mitrut
-header-img: img/home-bg.jpg
+header-img: img/share.png
 email: wellingtonmitrut@gmail.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+description: "Hi, I'm Wellington Mitrut, a Designer/Developer from Brazil. I worked with many startups, open-source projects and now I'm Mobile Advocate at Tampa.Works, conference speaker and open source enthusiastic."
 #baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://wmitrut.github.io"
+url: "wmitrut.pro"
 twitter_username: Wmitrut
 github_username:  wmitrut
 facebook_username:  wmitrut
 soundcloud_username:  wmitrut
 youtube_channel:  wmitrut
+medium_username:  wmitrut
 
 # Build settings
 markdown: kramdown
